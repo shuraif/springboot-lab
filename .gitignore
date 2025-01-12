@@ -23,8 +23,8 @@
 hs_err_pid*
 replay_pid*
 .DS_Store
-configuration-properties/mvnw
-configuration-properties/mvnw.cmd
-configuration-properties/target/
-configuration-properties/.idea/
-configuration-properties/.mvn/
+*/mvnw
+*/mvnw.cmd
+*/target/
+*/.idea/
+*/.mvn/
