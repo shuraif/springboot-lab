@@ -1,0 +1,6 @@
+spring:
+ application:
+      name: configuration-properties
+
+server:
+  port: 8089

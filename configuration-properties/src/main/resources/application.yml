@@ -1,0 +1,20 @@
+spring:
+ application:
+      name: configuration-properties
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+
+app:
+  info:
+    name: "Configuration Properties"
+    description: "Demo project for configuration properties"
+    version: "0.0.1-SNAPSHOT"
+  operations:
+    get:
+      - "GET /api/v1/appname/"
+      - "GET /api/v1/properties/{name}"
+    post:
+      - "POST /api/v1/operations"
